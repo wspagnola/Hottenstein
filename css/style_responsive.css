@@ -1,0 +1,443 @@
+/*--------------------- Body --------------------*/
+body{
+  padding: 0;
+  margin: 0;
+
+}
+
+/*Default Style*/
+.background_style {
+  background-color: #ffffcc;
+  /*background-color: white;*/
+  vlink: #0000ff ;
+  link: #0000ff ;
+  margin: 0;
+  padding: 0;
+}
+
+
+.carousel-item a:hover{
+    text-decoration: none;
+}
+
+
+
+/*--------------------- Nav Bar--------------------*/
+
+/*Adjust color of Navbar and Navbar Text*/
+#navbarColor{
+   background-color:  #bb111a;
+   margin-top: 0;
+
+}
+#nav_link_color{
+  color: white;
+}
+.active {
+  /*Makes active link in bolder in Navbar*/
+  font-weight: bolder;
+}
+
+/*------------------- Alert Bar--------------------*/
+
+#alert_container{
+
+  background-color: red;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+
+}
+
+/*--- This may be the same name as a Bootstrap Class ---*/
+#alert{
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: green;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+}
+
+.alert_button{
+  font-size: 60%;
+  padding: 1%;
+  text-align: center;
+  height: 20%;
+  margin-left: 0%;
+  border: solid 1px;
+  color: white;
+
+}
+
+.alert_button:hover{
+  background-color: gray;
+
+}
+
+.alert_message a:visited{
+  color: blue;
+}
+
+/*------------------ Link Styles --------------------*/
+
+#alert_button a {
+  color: white;
+  text-decoration: none;
+}
+
+
+a{
+  font-weight: bold;
+}
+
+a:link {
+  color: #0000ff;
+ }
+
+
+a:visited {
+  color: #ff0066;
+
+ }
+
+.active {
+  text-decoration: underline;
+}
+
+
+/*------------------ Paragraph Tags --------------------*/
+
+p.caption{
+  text-align: center;
+  padding-top:0%;
+  font-style: italic;
+}
+
+p {
+  font-weight: lighter;
+  margin-bottom: 0in;
+  text-align: left;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  margin-bottom: 0%;
+}
+
+/*------------------ Heading Tags --------------------*/
+
+.heading {
+  text-align: center;
+  font-weight: 700;
+
+}
+.subheading {
+  text-align: center;
+  font-family: Arial;
+  margin: -1.25%;
+  padding-top: 7%;
+
+}
+
+h1{
+  margin: .5em;
+  padding-bottom: 1%;
+  padding-top: 4%;
+  font-weight: 700;
+  font-family: Arial;
+}
+
+h2.western {
+  font-family: "Albany", sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+  font-size: 1.25em;
+  color:#bb111a;
+
+ }
+
+h2.subheading{
+  font-weight: 600;
+  padding: 0%;
+  margin:0%;
+  color: #bb111a;
+}
+
+/* This heading class may be redundant with h2.subheading*/
+h3.reunion{
+  color: #bb111a;
+  font-weight: 600;
+}
+
+p{
+  font-weight: 600;
+}
+/*------------------ Images --------------------*/
+
+#crest{
+  height: 432px;
+  width: 340px;
+
+}
+
+
+
+/*Flag image style*/
+.flag{
+  width:20%;
+  margin: auto;
+  margin-bottom: 0%;
+}
+img.flag{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+}
+.flag_container{
+    margin: 0%;
+    padding-top: 7%;
+
+}
+
+/*Logo*/
+.logo{
+
+  background-color: blue;
+   height: 30%;
+   width: 10%;
+   margin-left: 0%;
+   margin-right: 12em;
+   margin-top: 0%;
+   margin-bottom: 0%;
+
+}
+img.logo{
+  width: 16em;
+  margin: auto;
+  height: 2.5em;
+}
+
+/*Germany in Europe Map*/
+.map{
+  max-width: 100%;
+  height: 12em;
+  margin: auto;
+}
+.germany_map{
+  margin-left: 28%;
+  max-height: 100%;
+
+}
+.third_paragraph{
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+
+/*-------------- Lists --------------------*/
+
+ul{
+  list-style-type: none;
+}
+
+.list{
+  margin:auto;
+  width: 40%;
+}
+/*-------------- Text ---------------------*/
+
+.citation, .parentheses_info{
+  font-size: 9pt
+}
+#regular{
+  font-size: 12pt
+}
+
+
+/*-------------- Divs --------------------*/
+
+/*Container Div*/
+.container{
+
+}
+
+
+
+#no_top{
+  padding-top: 0%;
+
+}
+#top_sub_heading{
+  padding-top: 3%;
+}
+#no_bottom{
+  padding-bottom: -1%;
+  margin-bottom: -3%;
+}
+
+
+/*------------- Contact Form ----------------*/
+/*May delete soon*/
+div.contact_form{
+  margin: auto;
+  background-color: red;
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+    margin-bottom: 0%;
+
+}
+
+p.contact_form {
+  margin-top: 1em;
+  margin-bottom: 0%;
+  padding-left: 0%;
+  color: blue;
+
+}
+
+
+
+/*Center Div Class */
+.church_div{
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+/*Church Image Div */
+#church{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*------------------------------------------------*/
+/*------------ Media Queries ---------------------*/
+/*-------------------------------------------------*/
+
+/*Shift Crest left and First 2 welcome paragraphs right on largest screens*/
+@media only screen and (min-width: 1200px){
+
+  /*Text to Right; Image to left */
+  #right_text{
+  margin-left: 40%;
+  width: 60%;
+  }
+  #left_div_resp{
+  float: left;
+  width: 40%;
+  }
+
+  #crest_2{
+    height: 400px;
+    width: 350px;
+  }
+
+}
+
+/*Divide Germany and USA Family Paragraphs into two columns on larger screens*/
+@media only screen and (min-width: 1000px){
+  #flag_container_2{
+      margin: 0%;
+      padding-top: 7%;
+  }
+  img#flag_2{
+    margin: auto;
+    width: 6em;
+    height: 4.5em;
+    padding-top: 20%;
+  }
+  #left_family{
+    float: left;
+    margin-top: 0%;
+    width: 45%;
+  }
+  #right_family{
+    margin-left: 52.5%;
+    margin-top: 0%;
+    width: 45%;
+  }
+  #list_2{
+    margin: auto;
+    width: 90%;
+  }
+  #germany_map{
+    margin-left: 25%;
+  }
+  .alert_message p{
+    text-align: left;
+  }
+
+}
+
+/*Hide Germany Map on Smaller Screens*/
+@media only screen and (max-width: 999px){
+  #germany_map{
+    display: none;
+  }
+  #map{
+    display: none;
+  }
+
+  .alert_message p{
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 700px){
+
+  .alert_message{
+    width: 70%;
+    margin: auto;
+  }
+
+  .alert_divs{
+    display: inline-block;a
+  }
+
+  #alert_button{
+      border-radius: 5px;
+
+  }
+
+}
+
+@media only screen and (max-width: 700px){
+
+  .alert_message{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .alert_divs{
+    display: block;
+  }
+
+  #alert_button{
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 70%;
+  }
+
+}
