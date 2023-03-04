@@ -281,6 +281,11 @@ ul{
   margin-bottom: -3%;
 }
 
+/* Note: Need this to add weight to font inside bullet points */
+.reunion{
+  font-weight: 600;
+}
+
 
 /*------------- Contact Form ----------------*/
 /*May delete soon*/
