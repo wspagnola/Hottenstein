@@ -2,7 +2,7 @@
 body{
   padding: 0;
   margin: 0;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 
 }
 
@@ -384,7 +384,10 @@ p.contact_form {
   .alert_message p{
     text-align: left;
   }
+  #alert{
+    display: flex;
 
+  }
 }
 
 /*Hide Germany Map on Smaller Screens*/
@@ -400,11 +403,13 @@ p.contact_form {
     text-align: center;
     margin-bottom: 3%;
   }
+  #alert{
+     margin: auto;
+     display: flex;
+  }
+
 
 }
-
-
-
 
 
 @media only screen and (min-width: 700px){
@@ -420,13 +425,21 @@ p.contact_form {
 
   #alert_button{
       border-radius: 5px;
-
+      background-color: pink;
+      margin: auto;
+  }
+  #alert{
+    display: flex;
   }
 
 }
 
 @media only screen and (max-width: 700px){
 
+  #alert{
+     margin: auto;
+     display: block;
+  }
   .alert_message{
     width: 100%;
     margin: 0 auto;
