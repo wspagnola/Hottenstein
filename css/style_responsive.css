@@ -425,7 +425,7 @@ p.contact_form {
 
   #alert_button{
       border-radius: 5px;
-      background-color: pink;
+      /*background-color: pink;*/
       margin: auto;
   }
   #alert{
