@@ -22,6 +22,11 @@ body{
 }
 
 
+/*---- Email Styles ---*/
+.email{
+  color: #bb111a;
+  text-decoration: bold;
+}
 
 /*--------------------- Nav Bar--------------------*/
 
@@ -460,3 +465,4 @@ p.contact_form {
   }
 
 }
+
