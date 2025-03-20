@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- REUNION INFORMATION PAGE -->
+<!--- NEWSLETTER PAGE -->
 <head>
 
   <!-- Meta Tags with Website Information -->
@@ -10,6 +10,13 @@
         , history, genealogy, famous sites, and upcoming events ">
   <meta name="keywords" content="Hottenstein, family, genealogy, Germany, reunion, Spagnola">
   <meta name="author" content="John Hottenstein and William Spagnola">
+
+  <!-- Tag to Control Cache by Indicating Expiration Date (Meaning Cache Should be updated)-->
+  <!-- <meta http-equiv="expires"       content="Wed, 4 May 2022 01:00:00 GMT">
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <meta http-equiv="pramga"        content="no-cache"/>
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-store" /> -->
 
   <!--Other Meta Tags-->
   <meta charset="utf-8">
@@ -22,11 +29,11 @@
   <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
   <META HTTP-EQUIV="Expires" CONTENT="-1">
 
-  <!--Link to Stylesheet-->
-  <link rel="stylesheet" type="text/css" href="css/style_responsive.css">
-
   <!--Bootstrap Link-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <!--Link to Stylesheet-->
+  <link rel="stylesheet" type="text/css" href="css/style_responsive.css">
 
   <!--Title and Favicon-->
   <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
@@ -34,9 +41,26 @@
 
 </head>
 
-
-<body class="background_style">      <!--BEGINNING of Navigation Bar-->
-
+<body class="background_style">
+   <!--BEGINNING of Navigation Bar-->
+  <!-- Alert Banner -->
+  <div id='alert_container'>
+    <div id='alert' style = "overflow: auto;">
+      <div class= 'alert_message alert_divs'>
+       <p> The 88<sup>th</sup> Pennsylvania Reunion will be held on Sunday, June 8, 2025. </p>
+          <p> The 91<sup>th</sup> Wisconsin Reunion will be held on Sunday, August 17, 2025. </p>
+      </div>
+      <div style = "margin: auto;" class = 'alert_divs'>
+        <a href="reunion.html">
+        <!-- <a href="leadership.html"> -->
+          <div class='alert_button alert_divs' id = 'alert_button'>
+              Click Here for Details
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+    <!-- END of Alert Banner -->
   <nav class="navbar navbar-expand-lg navbar-light" id=navbarColor >
     <!--Logo-->
     <div class="logo">
@@ -65,16 +89,6 @@
         <li class="nav-item" >
           <a class="nav-link" id="nav_link_color" href="links.html">Links</a>
         </li>
-        <!--
-        <li class="nav-item" >
-          <a class="nav-link" id="nav_link_color" href="europe_tour.html">Europe Tour</a>
-        </li>
-      -->
-      <!--
-        <li class="nav-item">
-            <a class="nav-link" id="nav_link_color" href = "farm_proposal.html">Farm Site Proposal</a>
-        </li>
-      -->
       <li class="nav-item active">
         <a class="nav-link" id="nav_link_color" href = "leadership.html">Leadership Opportunities</a>
     </li>
@@ -83,48 +97,46 @@
         </li>
       </ul>
       <span class="navbar-text">
-          <!--Optional Text-->
       </span>
     </div>
   </nav>
   <!--END of Navigation Bar-->
-
-<!-- Pennsylvania Reunion Info --->
- <div>
-
-    <div>
-
-
-
-      <div class =  "subheading">
-            <h3 class = "reunion">Hottenstein Reunion Leadership Opportunities</h3>
-      </div>
-          <hr>
-          <div class = "reunion" >
-            <p>
-              Sadly, <a href = "https://www.courant.com/obituaries/theron-arthur-schnure/">Theron "Terry" Schnure</a>, the longtime president of the Hottenstein Reunion passed away on July 7, 2024. 
-              Terry played an integral part in continuing the family's legacy by organizing the annual reunion, writing the newsletter, and compiling the Historian's report.
-              It was through Terry's diligence and leadership that the Hottenstein Reuion continued for many years. 
-            </p>
-            <p>
-              In order to continue this legacy, we are looking for family members who are interested joining the Hottenstein Reunion Leadership group.
-              Although Terry's passing will leave some big shoes to fill, we hope to keep the reunion going. 
-              However, we will need multiple people to fill all the roles that Terry performed during his lifetime. 
-            </p>
-            </p>
-            <p>
-              If you are interested in being part of the leadership group, please email us at <span class = 'email'>Hottensteinfamily(at)gmail.com</span>.
-            </p>
-            
-          
-          </div>
-      </div>
-
-  <!--JQuery Links-->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-</body>
-</html>
+<div>
+      <div>
+        <div class =  "subheading">
+              <h3 class = "reunion">Hottenstein Family Reunion Leadership Opportunities</h3>
+        </div>
+            <hr>
+            <div class = "reunion" id = "leadership" style="padding: 10px;">
+              <p>
+                Sadly, <a href = "https://www.courant.com/obituaries/theron-arthur-schnure/">Theron "Terry" Schnure</a>, the longtime president of the Hottenstein Reunion passed away on July 7, 2024.
+                Terry played an integral part in continuing the family's legacy by organizing the annual reunion, writing the newsletter, and compiling the Historian's report.
+                It was through Terry's diligence and leadership that the Hottenstein Reunion continued for many years.
+              </p>
+              <p>
+                In order to continue this legacy, we are looking for family members who are interested joining the Hottenstein Family Reunion Leadership group.
+                Although Terry's passing will leave some big shoes to fill, we hope to keep the reunion going.
+                However, we will need multiple people to fill all the roles that Terry performed during his lifetime.
+              </p>
+              <p> The leadership positions are:
+                  <div style = 'margin-left: 1%'>
+                  <ul>
+                    <li>Vice President</li>
+                    <li>Secretary</li>
+                    <li>Treasurer</li>
+                    <li>Newsletter Editor</li>
+                    <li>Membership Coordinator</li>
+                  </ul>
+                </div>
+              </p>
+              <p>
+                If you are interested in being part of the leadership group, please email us at <span class = 'email'>Hottenstein<span class = 'spam-block'>rkrkrktrt$%#</span>Family(at)gmail.com</span>.
+              </p>
+            </div>
+        </div>
+        <!--JQuery Links-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    <html>
