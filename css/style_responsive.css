@@ -134,9 +134,9 @@ p {
   margin-bottom: 0%;
   font-weight: 600;
 }
-
+/* Add space between paragraphs */
+/* On main page there appears to be separate div for each paragraph */
 #leadership p{
-  /* margin-bottom: 1em; */
   padding-bottom: 1em;
 }
 
