@@ -1,12 +1,22 @@
+.spam-block{
+  display: none;
+}
+
 /*--------------------- Body --------------------*/
 body{
-  padding: 0;
-  margin: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom:100px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 100px;
   overflow-x: hidden;
-
 }
 
 /*Default Style*/
+/* Add margin to obttom?*/
 .background_style {
   background-color: #ffffcc;
   /*background-color: white;*/
@@ -92,22 +102,16 @@ body{
   color: white;
   text-decoration: none;
 }
-
-
 a{
   font-weight: bold;
 }
-
 a:link {
   color: #0000ff;
  }
-
-
 a:visited {
   color: #ff0066;
 
  }
-
 .active {
   text-decoration: underline;
 }
@@ -120,7 +124,6 @@ p.caption{
   padding-top:0%;
   font-style: italic;
 }
-
 p {
   /*font-weight: lighter;*/
   margin-bottom: 0in;
@@ -149,10 +152,8 @@ p {
   font-family: Arial;
   margin: -1.25%;
   padding-top: 7%;
-  padding-bottom: 1%; 
-
+  padding-bottom: 1%;
 }
-
 h1{
   margin: .5em;
   padding-bottom: 1%;
@@ -172,16 +173,13 @@ h2.western {
   text-align: center;
   font-size: 1.25em;
   color:#bb111a;
-
  }
-
 h2.subheading{
   font-weight: 600;
   padding: 0%;
   margin:0%;
   color: #bb111a;
 }
-
 /* This heading class may be redundant with h2.subheading*/
 h3.reunion{
   color: #bb111a;
@@ -470,4 +468,3 @@ p.contact_form {
   }
 
 }
-
