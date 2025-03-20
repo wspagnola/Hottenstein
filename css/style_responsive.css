@@ -132,6 +132,11 @@ p {
   font-weight: 600;
 }
 
+#leadership p{
+  /* margin-bottom: 1em; */
+  padding-bottom: 1em;
+}
+
 /*------------------ Heading Tags --------------------*/
 
 .heading {
