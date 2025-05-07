@@ -14,7 +14,6 @@ body{
   margin-bottom: 100px;
   overflow-x: hidden;
 }
-
 /*Default Style*/
 /* Add margin to obttom?*/
 .background_style {
@@ -25,13 +24,9 @@ body{
   margin: 0;
   padding: 0;
 }
-
-
 .carousel-item a:hover{
     text-decoration: none;
 }
-
-
 /*---- Email Styles ---*/
 .email{
   color: #bb111a;
@@ -55,14 +50,11 @@ body{
 }
 
 /*------------------- Alert Bar--------------------*/
-
 #alert_container{
-
   background-color: red;
   height: 100%;
   margin: 0 auto;
   border-radius: 0;
-
 }
 
 /*--- This may be the same name as a Bootstrap Class ---*/
@@ -75,7 +67,6 @@ body{
     padding-top: 1%;
 
 }
-
 .alert_button{
   font-size: 60%;
   padding: 1%;
@@ -86,18 +77,15 @@ body{
   color: white;
 
 }
-
 .alert_button:hover{
   background-color: gray;
 
 }
-
 .alert_message a:visited{
   color: blue;
 }
 
 /*------------------ Link Styles --------------------*/
-
 #alert_button a {
   color: white;
   text-decoration: none;
@@ -110,15 +98,12 @@ a:link {
  }
 a:visited {
   color: #ff0066;
-
  }
 .active {
   text-decoration: underline;
 }
 
-
 /*------------------ Paragraph Tags --------------------*/
-
 p.caption{
   text-align: center;
   padding-top:0%;
@@ -141,7 +126,6 @@ p {
 }
 
 /*------------------ Heading Tags --------------------*/
-
 .heading {
   text-align: center;
   font-weight: 700;
@@ -187,15 +171,10 @@ h3.reunion{
 }
 
 /*------------------ Images --------------------*/
-
 #crest{
   height: 432px;
   width: 340px;
-
 }
-
-
-
 /*Flag image style*/
 .flag{
   width:20%;
@@ -213,10 +192,10 @@ img.flag{
     padding-top: 7%;
 
 }
-
+/*-------------- Logo -----------------*/
+/* EDIT: Maybe adjust for small screens */
 /*Logo*/
 .logo{
-
   background-color: blue;
    height: 30%;
    width: 10%;
@@ -251,7 +230,6 @@ img.logo{
 
 
 /*-------------- Lists --------------------*/
-
 ul{
   list-style-type: none;
 }
@@ -260,8 +238,8 @@ ul{
   margin:auto;
   width: 40%;
 }
-/*-------------- Text ---------------------*/
 
+/*-------------- Text ---------------------*/
 .citation, .parentheses_info{
   font-size: 9pt
 }
@@ -269,16 +247,12 @@ ul{
   font-size: 12pt
 }
 
-
 /*-------------- Divs --------------------*/
 
 /*Container Div*/
 .container{
 
 }
-
-
-
 #no_top{
   padding-top: 0%;
 
@@ -290,7 +264,6 @@ ul{
   padding-bottom: -1%;
   margin-bottom: -3%;
 }
-
 /* Note: Need this to add weight to font inside bullet points */
 .reunion{
   font-weight: 600;
@@ -317,9 +290,6 @@ p.contact_form {
   color: blue;
 
 }
-
-
-
 /*Center Div Class */
 .church_div{
   width: 40%;
@@ -328,22 +298,18 @@ p.contact_form {
   margin-right: auto;
   margin-top: 3%;
 }
-
 /*Church Image Div */
 #church{
   width: 100%;
   height: 100%;
 }
 
-
-
-/*------------------------------------------------*/
-/*------------ Media Queries ---------------------*/
-/*-------------------------------------------------*/
+/*--------------------------------------------*/
+/*------------ Media Queries -----------------*/
+/*--------------------------------------------*/
 
 /*Shift Crest left and First 2 welcome paragraphs right on largest screens*/
 @media only screen and (min-width: 1200px){
-
   /*Text to Right; Image to left */
   #right_text{
   margin-left: 40%;
@@ -353,14 +319,12 @@ p.contact_form {
   float: left;
   width: 40%;
   }
-
   #crest_2{
     height: 400px;
     width: 350px;
   }
 
 }
-
 /*Divide Germany and USA Family Paragraphs into two columns on larger screens*/
 @media only screen and (min-width: 1000px){
   #flag_container_2{
@@ -420,18 +384,15 @@ p.contact_form {
 
 }
 
-
+/* Adjust alert screen for cellphones */
 @media only screen and (min-width: 700px){
-
   .alert_message{
     width: 70%;
     margin: auto;
   }
-
   .alert_divs{
     display: inline-block;
   }
-
   #alert_button{
       border-radius: 5px;
       /*background-color: pink;*/
@@ -440,11 +401,8 @@ p.contact_form {
   #alert{
     display: flex;
   }
-
 }
-
 @media only screen and (max-width: 700px){
-
   #alert{
      margin: auto;
      display: block;
@@ -453,11 +411,9 @@ p.contact_form {
     width: 100%;
     margin: 0 auto;
   }
-
   .alert_divs{
     display: block;
   }
-
   #alert_button{
     width: 30%;
     margin: auto;
@@ -466,5 +422,4 @@ p.contact_form {
     padding-bottom: 2%;
     font-size: 70%;
   }
-
 }
